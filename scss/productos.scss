@@ -9,7 +9,7 @@ html, body{
 .carousel-item {
     height: 400px !important;
 }
-@media (min-width: 992px) {
+@media only screen and (max-width: 767px)  {
     .carousel-item {
         height: 100vh !important;
     }
@@ -68,7 +68,7 @@ section.newsletter .submit {
 }
 
 
-@media (max-width: 575px) {
+@media only screen and (max-width: 767px)  {
 section.newsletter input {
     font-size: 0.95em;
     width: 100%;

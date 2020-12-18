@@ -11,11 +11,10 @@ $font-sizes: 1.5rem;
 
 .navbar {
    background-color:  $secondary-color;
-   padding: .5rem 4rem !important;
 }
 .nav-link {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    font-size: 20px;
     color: black !important;
     padding-right: 2rem !important;
     padding-left: 2rem !important;
@@ -29,7 +28,7 @@ $font-sizes: 1.5rem;
     width: 100px;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 767px)  {
     nav.navbar .container {
       width: 100%;
       line-height:0;
@@ -37,7 +36,7 @@ $font-sizes: 1.5rem;
 
   }
   
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 767px)  {
     nav.navbar .navbar-header {
       width: 100%;
     }

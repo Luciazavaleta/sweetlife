@@ -3,7 +3,6 @@ footer {
     background: -webkit-linear-gradient(59deg, rgb(255, 171, 132), rgb(233, 233, 180));
     background: linear-gradient(59deg, rgb(255, 171, 132), rgb(233, 233, 180));
     color: black;
-    margin-top:100px;
   }
   
   footer a {
@@ -110,7 +109,7 @@ footer {
     background-color: #F9F9F9;
   }
   
-  @media (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
     footer.main-footer div[class*="col-"] {
       margin-bottom: 40px;
     }

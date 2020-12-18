@@ -27,7 +27,6 @@ section {
 .text-big {
   font-size: 1.4em;
   font-weight: 300;
-  line-height: 1.8em;
   color: #111;
 }
 
@@ -92,7 +91,7 @@ section.hero .continue i {
 }
 
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   section.hero .container {
     padding: 150px 20px;
   }
@@ -127,7 +126,7 @@ section.newsletter .submit {
 }
 
 
-@media (max-width: 575px) {
+@media only screen and (max-width: 767px) {
   section.newsletter input {
     font-size: 0.95em;
     width: 100%;
