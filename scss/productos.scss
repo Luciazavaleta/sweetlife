@@ -1,41 +1,12 @@
 @import "footer";
 @import "header";
 
-html, body{
-    margin: 0;
-    padding: 0;
-    background-color: beige;
-}
 .carousel-item img {
     width: 100vw; /*viewport width*/
     max-height: 400px;
     object-fit: cover;
 }
-.slide1 {
-    background-image: url(../../img/categoria1.jpg);
-    background-position: center center;
-    background-size: cover;
-}
-.slide2 {
-    background-image: url(../../img/categoria2.jpg);
-    background-position: center center;
-    background-size: cover;
-}
-.slide3 {
-    background-image: url(../../img/categoria3.jpg);
-    background-position: center center;
-    background-size: cover;
-}
-.slide4 {
-    background-image: url(../../img/categoria4.jpg);
-    background-position: center center;
-    background-size: cover;
-}
-.slide5 {
-    background-image: url(../../img/categoria5.jpg);
-    background-position: center center;
-    background-size: cover;
-}
+
 section.newsletter .form-group {
     position: relative;
 }

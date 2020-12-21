@@ -224,5 +224,8 @@ section.gallery .overlay i {
   font-size: 2em;
 }
 
-
+section.gallery a{
+  color: black;
+  text-align: center;
+}
 
