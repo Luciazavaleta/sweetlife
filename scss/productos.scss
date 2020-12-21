@@ -6,13 +6,10 @@ html, body{
     padding: 0;
     background-color: beige;
 }
-.carousel-item {
-    height: 400px !important;
-}
-@media only screen and (max-width: 767px)  {
-    .carousel-item {
-        height: 100vh !important;
-    }
+.carousel-item img {
+    width: 100vw; /*viewport width*/
+    max-height: 400px;
+    object-fit: cover;
 }
 .slide1 {
     background-image: url(../../img/categoria1.jpg);
