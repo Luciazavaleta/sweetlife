@@ -27,7 +27,7 @@
 }
 
 .navbar {
-background-color:  rgb(255, 171, 132);
+   background-color:  $secondary-color;
 }
 .nav-link {
     font-family: 'Times New Roman', Times, serif;
@@ -38,12 +38,36 @@ background-color:  rgb(255, 171, 132);
     border-radius: 2rem;
 }
 .nav-item :hover {
-    background-color: beige;
+    background-color: $primary-color;
     color: black !important;
 }
 .nav-logo {
     width: 100px;
 }
+
+@media only screen and (max-width: 767px)  {
+    nav.navbar .container {
+      width: 100%;
+      line-height:0;
+    }
+
+  }
+  
+@media only screen and (max-width: 767px)  {
+    nav.navbar .navbar-header {
+      width: 100%;
+    }
+    nav.navbar::after {
+      width: 100%;
+    }
+    nav.navbar.active::after {
+      width: calc(100% - 170px);
+    }
+    nav.navbar .search-area {
+      font-size: 0.75em;
+    }
+  }
+  
 body h1 {
   text-align: center;
   color: white;
