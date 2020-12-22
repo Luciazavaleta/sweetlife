@@ -14,6 +14,59 @@
         <link rel="stylesheet" href="../css/estilos.css" id="theme-stylesheet">
         <link rel="stylesheet" href="../css/productos.css">
         <link rel="stylesheet" href="../css/main.css">
+        <style>
+        .no-gutters {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        .navbar {
+          background-color: rgb(255, 171, 132);
+        }
+        .nav-link {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: black !important;
+            padding-right: 2rem !important;
+            padding-left: 2rem !important;
+            border-radius: 2rem;
+        }
+        .nav-item :hover {
+            background-color: beige;
+            color: black !important;
+        }
+        .nav-logo {
+            width: 100px;
+        }
+
+        @media only screen and (max-width: 767px)  {
+            nav.navbar .container {
+              width: 100%;
+              line-height:0;
+            }
+
+          }
+          
+        @media only screen and (max-width: 767px)  {
+            nav.navbar .navbar-header {
+              width: 100%;
+            }
+            nav.navbar::after {
+              width: 100%;
+            }
+            nav.navbar.active::after {
+              width: calc(100% - 170px);
+            }
+            nav.navbar .search-area {
+              font-size: 0.75em;
+            }
+          }
+        .carousel-item img {
+          width: 100vw; /*viewport width*/
+          object-fit: cover;
+        }
+        </style>
+
 </head>
 <body class="container-fluid no-gutters">
     <header class="header">
